@@ -1,0 +1,34 @@
+Backend environment summary {
+  nodeEnv: 'development',
+  port: 5003,
+  clientOrigin: 'http://localhost:5173',
+  databaseUrl: {
+    protocol: 'postgresql',
+    host: 'localhost',
+    port: '5432',
+    database: 'prediction_db',
+    username: 'postgres'
+  },
+  jwtAccessSecret: 'cha***et',
+  jwtRefreshSecret: 'cha***et'
+}
+PostgreSQL connection successful {
+  connection: {
+    host: 'localhost',
+    port: '5432',
+    database: 'prediction_db',
+    username: 'postgres'
+  },
+  database: 'prediction_db',
+  serverTime: 2026-04-17T20:14:10.558Z
+}
+Database schema verified
+Backend server running on port 5003
+Create market request received {
+  title: 'Will India win next match? 1776456849',
+  category: 'sports',
+  closingTime: '2026-12-31T18:00:00Z',
+  status: 'open'
+}
+Market created successfully { marketId: 3, title: 'Will India win next match? 1776456849' }
+Markets fetched successfully { count: 1 }

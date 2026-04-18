@@ -1,0 +1,50 @@
+Backend environment summary {
+  nodeEnv: 'development',
+  port: 5002,
+  clientOrigin: 'http://localhost:5173',
+  databaseUrl: {
+    protocol: 'postgresql',
+    host: 'localhost',
+    port: '5432',
+    database: 'prediction_db',
+    username: 'postgres'
+  },
+  jwtAccessSecret: 'cha***et',
+  jwtRefreshSecret: 'cha***et'
+}
+PostgreSQL connection successful {
+  connection: {
+    host: 'localhost',
+    port: '5432',
+    database: 'prediction_db',
+    username: 'postgres'
+  },
+  database: 'prediction_db',
+  serverTime: 2026-04-17T19:39:45.500Z
+}
+Database schema verified
+Backend server running on port 5002
+Signup request received {
+  username: 'flowuser1776454784',
+  email: 'flowuser1776454784@example.com'
+}
+Signup transaction started {
+  username: 'flowuser1776454784',
+  email: 'flowuser1776454784@example.com'
+}
+Creating user record {
+  username: 'flowuser1776454784',
+  email: 'flowuser1776454784@example.com'
+}
+User inserted successfully { userId: 3, username: 'flowuser1776454784' }
+Creating starter wallet { userId: 3, starterBalance: 1000 }
+Wallet inserted successfully { userId: 3 }
+Signup transaction committed { userId: 3 }
+Create market request received {
+  title: 'Flow Market 1776454784',
+  category: 'crypto',
+  closeTime: '2026-12-31T18:00:00Z',
+  status: 'open'
+}
+Market created successfully { marketId: 2, title: 'Flow Market 1776454784' }
+Markets fetched successfully { count: 2 }

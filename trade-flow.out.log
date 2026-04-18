@@ -1,0 +1,49 @@
+Backend environment summary {
+  nodeEnv: 'development',
+  port: 5004,
+  clientOrigin: 'http://localhost:5173',
+  databaseUrl: {
+    protocol: 'postgresql',
+    host: 'localhost',
+    port: '5432',
+    database: 'prediction_db',
+    username: 'postgres'
+  },
+  jwtAccessSecret: 'cha***et',
+  jwtRefreshSecret: 'cha***et'
+}
+PostgreSQL connection successful {
+  connection: {
+    host: 'localhost',
+    port: '5432',
+    database: 'prediction_db',
+    username: 'postgres'
+  },
+  database: 'prediction_db',
+  serverTime: 2026-04-18T00:15:37.878Z
+}
+Database schema verified
+Backend server running on port 5004
+Signup request received {
+  username: 'tradeuser1776471336',
+  email: 'tradeuser1776471336@example.com'
+}
+Signup transaction started {
+  username: 'tradeuser1776471336',
+  email: 'tradeuser1776471336@example.com'
+}
+Creating user record {
+  username: 'tradeuser1776471336',
+  email: 'tradeuser1776471336@example.com'
+}
+User inserted successfully { userId: 5, username: 'tradeuser1776471336' }
+Creating starter wallet { userId: 5, starterBalance: 1000 }
+Wallet inserted successfully { userId: 5 }
+Signup transaction committed { userId: 5 }
+Create market request received {
+  title: 'DOGE to  1776471336',
+  category: 'meme',
+  closingTime: '2026-12-31T18:00:00Z',
+  status: 'open'
+}
+Market created successfully { marketId: 4, title: 'DOGE to  1776471336' }
